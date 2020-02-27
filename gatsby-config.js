@@ -2,11 +2,11 @@ require(`dotenv`).config()
 
 module.exports = {
   siteMetadata: {
-    title: `Flex Starter`,
-    description: `Starter for the Flex theme.`,
+    title: `Stoq Tecnologia`,
+    description: `Stoq Tecnologia`,
     siteUrl: process.env.SITE_URL,
     logo: `logo.png`,
-    copyright: `© YYYY Flex. All rights reserved.`,
+    copyright: `© 2020 Stoq Tecnologia. All rights reserved.`,
     headerLinks: [
       {
         title: `Home`,
