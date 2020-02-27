@@ -4,9 +4,9 @@ excerpt: This is the home page.
 is_front: true
 ---
 
-<Hero 
-  heading="Hero Component"
-  lead="Eius necessitatibus nobis quam repudiandae officia"
+<Hero
+  heading="A transformação digital do varejo"
+  lead="tecnologia e inovação para aumentar suas vendas"
   style={{
     bg: "#0a8bd5",
     figure: {
@@ -42,8 +42,7 @@ is_front: true
 </Hero>
 
 <Section
-  heading="How does it work?"
-  lead="Flex leverages the power of <strong>Gatsby</strong>, <strong>MDX</strong> <br />and <strong>Theme UI</strong> to build blazing fast websites."
+  heading="Solução na medida do seu negócio"
   style={{
     mt: [10, 11, 12],
     pt: [0, 0, 0],
@@ -54,46 +53,78 @@ is_front: true
   mt: [4, 4, 6],
 }}>
     <Card
-      heading="Gatsby"
-      imageUrl="logo-gatsby.png"
-      imageAlt="Gatsby"
+      heading="Descomplicado"
+      subHeading="para você não perder tempo."
+      imageUrl="placeholder.jpg"
       type="icon"
     >
-      <p>Flex is built for Gatsby with speed and extensibility in mind.</p>
+    <Button url="/retail-painless">Saiba mais</Button>
     </Card>
     <Card
-      heading="MDX"
-      imageUrl="logo-gatsby.png"
-      imageAlt="MDX"
+      heading="Integrado"
+      subHeading="para você continuar crescendo."
+      imageUrl="placeholder.jpg"
       type="icon"
     >
-      <p>Build your site using React components inside Markdown files.</p>
+    <Button url="/retail-integrated/">Saiba mais</Button>
     </Card>
     <Card
-      heading="Theme UI"
-      imageUrl="logo-gatsby.png"
-      imageAlt="Theme UI"
+      heading="Inovador"
+      subHeading="para você vender mais."
+      imageUrl="placeholder.jpg"
       type="icon"
     >
-      <p>Customize the look and feel of your site using a robust theme specification.</p>
+    <Button url="/retail-innovative/">Saiba mais</Button>
     </Card>
 </Grid>
 </Section>
 
 <Section
-  heading="Soluções"
+  heading="Conheça quem já se transformou"
 >
-
+<Grid columns={[1, 1, 4]} gap={[4, 4, 6, 6, 8]} sx={{
+  mt: [4, 4, 6]
+}}>
+    <Card imageUrl="placeholder.jpg" >
+      <p>A Bacio di Latte ...
+      <br/><Link to="/case-bacio-di-latte/">Leia mais</Link></p>
+    </Card>
+    <Card imageUrl="placeholder.jpg">
+      <p> UncleK - Brasilia ...
+      <br/><Link to="/case-bacio-di-latte/">Leia mais</Link></p>
+    </Card>
+    <Card imageUrl="placeholder.jpg">
+      <p>Holypasta ...
+      <br/><Link to="/case-bacio-di-latte/">Leia mais</Link></p>
+    </Card>
+    <Card imageUrl="placeholder.jpg">
+      <p>Ótica & Cia ...
+      <br/><Link to="/case-bacio-di-latte/">Leia mais</Link></p>
+    </Card>
+    <Card imageUrl="placeholder.jpg">
+      <p>Nutricar ...
+      <br/><Link to="/case-bacio-di-latte/">Leia mais</Link></p>
+    </Card>
+    <Card imageUrl="placeholder.jpg">
+      <p>Nutty Bavarian ...
+      <br/><Link to="/case-bacio-di-latte/">Leia mais</Link></p>
+    </Card>
+    <Card imageUrl="placeholder.jpg">
+      <p>Onii ...
+      <br/><Link to="/case-bacio-di-latte/">Leia mais</Link></p>
+    </Card>
+    <Card imageUrl="placeholder.jpg">
+      <p>DaTerra ...
+      <br/><Link to="/case-bacio-di-latte/">Leia mais</Link></p>
+    </Card>
+</Grid>
 </Section>
 
-<Section>
-  <Div style={{
-    mt: [-5, -5, -5],
-    borderRadius: [3],
-    boxShadow: "xxl",
-    overflow: "hidden",
-    width: ["100%", "50%"],
-  }}>
-    <ContactForm />
-  </Div>
-</Section>
+<Cta
+  heading="Seu varejo precisa de inovação?"
+  lead="Nossa equipe vai te ajudar."
+  links={<Button url="/contact/">Entre em contato</Button>}
+  style={{
+    bg: "muted"
+  }}
+/>
