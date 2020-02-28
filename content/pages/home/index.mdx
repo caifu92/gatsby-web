@@ -21,21 +21,21 @@ is_front: true
   }}
 >
 
+import StoqVideo from "../../../assets/stoq.mp4"
+
 <Div style={{
     mt: [4, 6, 7],
     mb: [-9, -11, -12],
     borderRadius: [3],
     boxShadow: "xxl",
     overflow: "hidden",
-    width: ["100%", "80%"],
-    border: "5px solid black",
-    bg: "#000",
+    width: ["100%", "80%"]
   }}>
   <video controls autoplay muted loop playsinline style={{
     display: "block",
     width: "100%",
   }}>
-    <source src="demo.mp4" type="video/mp4" />
+    <source src={StoqVideo} type="video/mp4" />
   </video>
 </Div>
 

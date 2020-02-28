@@ -16,17 +16,7 @@ module.exports = {
         title: `About`,
         path: `/about`,
       },
-    ],
-    footerLinks: [
-      {
-        title: `Home`,
-        path: `/`,
-      },
-      {
-        title: `About`,
-        path: `/about`,
-      },
-    ],
+    ]
   },
-  plugins: [`gatsby-theme-flex`],
+  plugins: [`gatsby-theme-flex`]
 }
