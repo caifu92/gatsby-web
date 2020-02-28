@@ -1,5 +1,4 @@
-
-# Stoq Website<
+# Stoq Website
 
 Using Gatsby and the <a href="https://github.com/arshad/gatsby-themes/tree/master/themes/gatsby-theme-flex">gatsby-theme-flex</a> theme.
 
