@@ -29,6 +29,7 @@
     "react-dom": "16.12.0"
   },
   "dependencies": {
+    "@blocks/kit": "0.0.28",
     "gatsby": "2.19.7",
     "gatsby-theme-flex": "^0.2.1",
     "react": "16.12.0",
