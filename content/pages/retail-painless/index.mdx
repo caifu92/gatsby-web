@@ -19,4 +19,34 @@ description: "A solução descomplicada para o varejo"
     }
   }}
 >
+
+import { YouTube } from '@blocks/kit'
+const opts = {
+  playerVars: {
+    // autoplay hack, see https://developers.google.com/youtube/player_parameters
+    autoplay: 1,
+    loop: 1,
+    playsinline: 1,
+    playlist: '813t6gi8vIY',
+    rel: 0,
+    showinfo: 0,
+    modestbranding: 1,
+    controls: 2
+  }
+};
+
+<Div style={{
+    mt: [4, 6, 7],
+    mb: [-9, -11, -12],
+    borderRadius: [3],
+    boxShadow: "xxl",
+    overflow: "hidden",
+    width: ["100%", "80%"]
+  }}>
+  <YouTube videoId="813t6gi8vIY" opts={opts} onReady={(e) => e.target.mute()}/>
+</Div>
+
 </Hero>
+
+<Section>
+</Section>
