@@ -1,23 +1,19 @@
 {
-  "name": "gatsby-starter-flex",
-  "version": "1.2.1",
+  "name": "stoq-website",
+  "version": "0.0.1",
   "private": true,
-  "author": "arshad <arshad@chummun.com>",
+  "author": "stoq <dev@stoq.com.br>",
   "license": "MIT",
   "starter-name": "gatsby-starter-flex",
   "keywords": [
     "gatsby",
-    "gatsby-plugin",
-    "gatsby-starter",
-    "gatsby-starter-flex"
+    "stoq",
+    "website"
   ],
-  "bugs": {
-    "url": "https://github.com/arshad/gatsby-themes/issues"
-  },
-  "homepage": "https://github.com/arshad/gatsby-themes",
+  "homepage": "https://www.stoq.com.br",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arshad/gatsby-starter-flex.git"
+    "url": "https://gitlab.com/stoqtech/gatsby-website"
   },
   "scripts": {
     "build": "gatsby build",
