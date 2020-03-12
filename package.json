@@ -1,19 +1,18 @@
 {
-  "name": "stoq-website",
+  "name": "prodev-website",
   "version": "0.0.1",
   "private": true,
-  "author": "stoq <dev@stoq.com.br>",
+  "author": "prodev160",
   "license": "MIT",
   "starter-name": "gatsby-starter-flex",
   "keywords": [
     "gatsby",
-    "stoq",
+    "prodev",
     "website"
   ],
-  "homepage": "https://www.stoq.com.br",
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/stoqtech/gatsby-website"
+    "url": "https://github.com/prodev160/gatsby-website.git"
   },
   "scripts": {
     "build": "gatsby build",
