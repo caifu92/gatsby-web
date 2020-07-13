@@ -1,4 +1,4 @@
-# Stoq Website
+# Website using Gatsby
 
 Using Gatsby and the <a href="https://github.com/arshad/gatsby-themes/tree/master/themes/gatsby-theme-flex">gatsby-theme-flex</a> theme.
 
@@ -20,7 +20,7 @@ npm run dev
 
 Then access `http://localhost:8000/` in your browser.
 
-###  Hack Hack Hack
+###  Document
 
 Check out the docs for [gatsby-theme-flex](https://flex.arshad.io/docs).
 
